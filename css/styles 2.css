@@ -1,0 +1,59 @@
+html, body {
+  height : 100%;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.bg{
+  background: url("../images/nightparty.jpeg");
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-color:purple;
+}
+
+.btn{
+  background: #005f6b;
+  transition: all 0.3s;
+}
+
+.btn:hover{
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 3px black;
+}
+
+.main-head{
+  color: #1ca2bb;
+}
+
+.nav-item{
+  border-radius: 5%;
+  transition: all 0.3s;
+}
+
+.nav-item:hover{
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.bg-f{
+  background-color: purple;
+  border-radius: 0;
+}
+
+.bg-f a{
+
+  transition: all 0.35s;
+}
+
+.bg-f a{
+  color: #dbedf3;
+}
+.bg-f a:hover{
+  color: rgba(0, 0, 0, 0.5);
+}
